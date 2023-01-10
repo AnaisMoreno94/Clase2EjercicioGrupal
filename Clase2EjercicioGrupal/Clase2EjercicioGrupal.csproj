@@ -41,13 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bases\DosRuedas.cs" />
+    <Compile Include="Bases\MedioTransporte.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Aereos\" />
-    <Folder Include="Bases\" />
-    <Folder Include="Terrestres\" />
+    <Folder Include="Terrestres\DosRuedas\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
