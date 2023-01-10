@@ -8,8 +8,6 @@ namespace Clase2EjercicioGrupal.Bases
 {
     public abstract class MedioTransporte
     {
-
-        public MedioTransporte() { }
         public MedioTransporte(string Nombre, string Modelo)
         {
             this.Nombre = Nombre;
