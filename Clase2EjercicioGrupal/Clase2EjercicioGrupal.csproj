@@ -41,14 +41,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bases\DosRuedas.cs" />
+    <Compile Include="Aereos\AvionComercial.cs" />
+    <Compile Include="Aereos\Avioneta.cs" />
+    <Compile Include="Aereos\HelicopteroGrua.cs" />
+    <Compile Include="Aereos\HelicopteroMilitar.cs" />
+    <Compile Include="Aereos\Hidroavion.cs" />
+    <Compile Include="Aereos\Zeppelin.cs" />
+    <Compile Include="Bases\Aeronaves.cs" />
+    <Compile Include="Bases\Auto.cs" />
+    <Compile Include="Bases\Camion.cs" />
+    <Compile Include="Bases\Manual.cs" />
     <Compile Include="Bases\MedioTransporte.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="Bases\Motoo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Terrestres\Autos\AutoElectrico.cs" />
+    <Compile Include="Terrestres\Autos\AutoFormula1.cs" />
+    <Compile Include="Terrestres\Autos\AutoUrbano.cs" />
+    <Compile Include="Terrestres\Camiones\CamionDeCarga.cs" />
+    <Compile Include="Terrestres\Camiones\CamionFlete.cs" />
+    <Compile Include="Terrestres\Manuales\Bicicleta.cs" />
+    <Compile Include="Terrestres\Manuales\Triciclo.cs" />
+    <Compile Include="Terrestres\Motos\MotoCarrera.cs" />
+    <Compile Include="Terrestres\Motos\Motomel.cs" />
+    <Compile Include="Terrestres\Motos\MotoConSider.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Aereos\" />
-    <Folder Include="Terrestres\DosRuedas\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

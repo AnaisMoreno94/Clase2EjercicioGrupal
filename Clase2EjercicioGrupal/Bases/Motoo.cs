@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Clase2EjercicioGrupal.Bases
 {
-    public class Moto :MedioTransporte
+    public class Motoo :MedioTransporte
     {
-        public Moto(string Nombre, string Modelo, int Cilindraje, bool Scooter) : base(Nombre, Modelo)
+        public Motoo(string Nombre, string Modelo, int Cilindraje, bool Scooter) : base(Nombre, Modelo)
         {
             this.Cilindraje = Cilindraje;
             this.Scooter = Scooter;
