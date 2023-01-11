@@ -19,10 +19,7 @@ namespace WindowsTPGrupal
             InitializeComponent();
         }
 
-        private void button7_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void btnCreateAutoF1_Click(object sender, EventArgs e)
         {
@@ -34,6 +31,11 @@ namespace WindowsTPGrupal
         {
             Bicicleta epic = new Bicicleta("Epic", "Epic Pro", "DT Swiss 350", "760 mm", "FACT 11m Full Carbon", "SRAM Level TLM");
             MessageBox.Show("Bicicleta Creada = Nombre: " + epic.Nombre + ", Modelo: " + epic.Modelo + ", Ruedas: " + epic.Ruedas + ", Tamaño Marco: " + epic.Tamaño + ", Tipo Marco: " + epic.TipoMarco + ", Tipo de Frenos:" + epic.TipoFreno);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

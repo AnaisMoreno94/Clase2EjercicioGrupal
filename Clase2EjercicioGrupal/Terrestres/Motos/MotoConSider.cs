@@ -9,12 +9,12 @@ namespace Clase2EjercicioGrupal.Terrestres.Motos
 {
     internal class MotoConSider:Motoo
     {
-        public MotoConSider(string Nombre, String Modelo, int Cilindraje, bool Scooter, int Prop, string Propiedad) : base(Nombre, Modelo, Cilindraje, Scooter)
+        public MotoConSider(string Nombre, String Modelo, int Cilindraje, bool Scooter, int Pasajeros, bool SiderRemovible) : base(Nombre, Modelo, Cilindraje, Scooter)
         {
-            this.MyProperty = Prop;
-            this.MyPro = Propiedad;
+            this.Pasajeros = Pasajeros;
+            this.SiderRemovible = SiderRemovible;
         }
-        public int MyProperty { get; set; }
-        public string MyPro { get; set; }
+        public int Pasajeros { get; set; }
+        public bool SiderRemovible { get; set; }
     }
 }

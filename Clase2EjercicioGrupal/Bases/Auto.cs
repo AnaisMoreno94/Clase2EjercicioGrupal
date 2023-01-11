@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Clase2EjercicioGrupal.Bases
 {
-    public class Auto : MedioTransporte
+    public abstract class Auto : MedioTransporte
     {
         public string TipoMotor { get; set; }
         public string Color { get; set; }

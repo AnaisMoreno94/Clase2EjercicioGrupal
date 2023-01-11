@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Clase2EjercicioGrupal.Bases
 {
-    public class Motoo :MedioTransporte
+    public abstract class Motoo :MedioTransporte
     {
         public Motoo(string Nombre, string Modelo, int Cilindraje, bool Scooter) : base(Nombre, Modelo)
         {
