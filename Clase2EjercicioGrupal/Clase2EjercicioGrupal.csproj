@@ -59,6 +59,7 @@
     <Compile Include="Terrestres\Autos\AutoUrbano.cs" />
     <Compile Include="Terrestres\Camiones\CamionDeCarga.cs" />
     <Compile Include="Terrestres\Camiones\CamionFlete.cs" />
+    <Compile Include="Terrestres\Camiones\CamionFrigorifico.cs" />
     <Compile Include="Terrestres\Manuales\Bicicleta.cs" />
     <Compile Include="Terrestres\Manuales\Triciclo.cs" />
     <Compile Include="Terrestres\Motos\MotoCarrera.cs" />
