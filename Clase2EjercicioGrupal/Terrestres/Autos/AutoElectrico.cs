@@ -9,9 +9,9 @@ namespace Clase2EjercicioGrupal.Terrestres.Autos
 {
     public class AutoElectrico : Auto
     {
-        public int CantidadKW { get; set; }
-        public int Carga { get; set; }
-        public AutoElectrico(string Nombre, string Modelo, string TipoMotor, string Color, int CantidadKW, int Carga) : base(Nombre, Modelo, TipoMotor, Color)
+        public float CantidadKW { get; set; }
+        public float Carga { get; set; }
+        public AutoElectrico(string Nombre, string Modelo, string TipoMotor, string Color, float CantidadKW, float Carga) : base(Nombre, Modelo, TipoMotor, Color)
         {
             this.CantidadKW = CantidadKW;
             this.Carga = Carga;
